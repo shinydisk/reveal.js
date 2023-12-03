@@ -1,0 +1,15 @@
+##########################
+#   Ignore for project   #
+##########################
+
+## Ignore all fontawesome directory
+./assets/icons/fontawesome-free-6.4.2-web/
+
+## Ignore all Reveal.js fonts
+reveal/dist/theme/fonts/
+
+
+###############################
+#   Ignore for ransom files   #
+###############################
+.DS_Store

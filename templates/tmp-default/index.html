@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Default Reveals.js</title>
+
+        <link rel="icon" href="./assets/icons/eyes.ico" />
+		<link rel="stylesheet" href="../../reveal/dist/reset.css">
+		<link rel="stylesheet" href="../../reveal/dist/reveal.css">
+		<link rel="stylesheet" href="../../reveal/dist/theme/night.css">
+		<link rel="stylesheet" href="../../reveal/plugin/highlight/monokai.css">
+		<link href="./assets/icons/fontawesome-free-6.4.2-web/css/all.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<!-- HOME SECTION -->
+				<section data-auto-animate>
+					<h1 class="r-fit-text">Title</h1>
+                    <h5>Slide down for more information</h5>
+                    <i class="fa-solid fa-arrow-down"></i>
+				</section>
+
+				<!-- MARKDOWN SECTION -->
+				<section data-markdown="./markdown.md"
+                         data-separator="^\n\n\n"
+                         data-separator-vertical="^\n\n"
+                         data-separator-notes="^Note:"
+                         data-charset="iso-8859">
+				</section>
+
+			</div>
+		</div>
+
+		<script src="../../reveal/dist/reveal.js"></script>
+		<script src="../../reveal/plugin/notes/notes.js"></script>
+		<script src="../../reveal/plugin/markdown/markdown.js"></script>
+		<script src="../../reveal/plugin/highlight/highlight.js"></script>
+		<script defer src="./assets/icons/fontawesome-free-6.4.2-web/js/all.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
