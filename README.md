@@ -26,7 +26,7 @@ Want to create reveal.js presentation in a graphical editor? Try <https://slides
 # Installation
 
 ## Basic installation
-1. [Click here](#) to download **zip file**.
+1. Download the latest release **[here](https://github.com/shinydisk/reveal.js/releases)**.
 2. Extract the **zip file**. 
 ```bash
 unzip reveal.js.zip
